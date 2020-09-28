@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
+
+body {
+    background: #282a36;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0,0,0,0.1);
+}
+
+header div {
+    text-align: center;
+    
+}
+
+header div a {
+    color: white;
+    font-size: 16px;
+    /* line-height trabalha a altura da linha , dica use 10px a mais do tamanho da font-size */
+    line-height: 26px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-style: bold;
+    
+}
+
+header div a:hover {
+    color: springgreen;
+    transition: color 1500ms;
+}
