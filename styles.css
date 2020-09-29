@@ -4,6 +4,8 @@
     border: 0;
 }
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap');
 
 body {
@@ -14,7 +16,7 @@ body {
 
 header {
     padding: 32px;
-    border-bottom: 1px solid #333;
+    border-bottom: 2px solid #333;
     background: rgba(0,0,0,0.1);
 }
 
@@ -38,4 +40,53 @@ header div a:hover {
 
 #wrapper {
     text-align: center;
+    padding: 32px;
+}
+
+#wrapper img {
+    height: 300px;
+    border-radius: 50%;
+    border: 4px solid springgreen;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1, h2 {
+    padding: 16px
+}
+
+#title h1 {
+    font-size: 64px;
+}
+
+#title h2 {
+    font-size: 32px;
+    color: rgba(200,200,200,0.99);
+    margin-bottom: 32px;
+    
+}
+
+#text {
+    
+    margin: 0 auto;
+    width: 800px;
+    height: 300px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 16px;
+    border: 2px solid #333;
+
+}
+
+#text .paragraph {
+    display: block;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#text .paragraph p {
+    font-size: 16px;
+    margin: 32px 0;
 }
